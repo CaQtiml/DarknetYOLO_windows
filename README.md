@@ -38,6 +38,6 @@ Next, you have to set the configuration file in `cfg` folder. Follow [the first 
 
 Finally, follow step 7 and 8 of the first reference to train the model. Check the file path in the command `darknet.exe detector train data/obj.data yolo-obj.cfg yolov4.conv.137` carefully. You can change the file path and file name. For example, I change the command to `darknet.exe detector train data/yolo.data cfg/yolov4_custom_update.cfg supplementary/yolov4.conv.137` because
 - My configuration file is `yolov4_custom_update.cfg` locating in `cfg` folder, not `yolo-obj.cfg`.
-- My NAMES file is `yolo.data`, not `obj.data`.
+- My DATA file is `yolo.data`, not `obj.data`.
 
 This note is written in a short amount of time, and I haven't even reread all of my notes. Just think and type. So, I believe there are a lot of grammar mistakes and vocab misuses. I apologize. However, any suggestion is appreciated. I hope this note help!
