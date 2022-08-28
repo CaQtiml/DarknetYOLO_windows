@@ -49,7 +49,7 @@ Finally, follow step 7 and 8 of the first reference to train the model. Check th
 - My configuration file is `yolov4_custom_update.cfg` locating in `cfg` folder, not `yolo-obj.cfg`.
 - My DATA file is `yolo.data`, not `obj.data`.
 
-After training, use this command template to have you model detecting objects in your image.
+After training, use this command template to have you model detecting objects in your image. [Ref](https://github.com/pjreddie/darknet/issues/335)
 ```
 darknet detector test <DATA file path> <Configuration file path> <Weight path> <image path>
 ```
@@ -57,5 +57,6 @@ For example,
 ```
 darknet detector test data/yolo.data cfg/yolov4_custom_update.cfg backup/yolov4_custom_update_last.weights "data/images/armas (419).jpg"
 ```
+
 
 This note is written in a short amount of time, and I haven't even reread all of my notes. Just think and type. So, I believe there are a lot of grammar mistakes and vocab misuses. I apologize. However, any suggestion is appreciated. I hope this note help!
